@@ -1,0 +1,147 @@
+@use 'variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    .my-tag {
+        color: $color1;
+        margin: 0 auto;
+        padding: 0;
+        width: 25vw;
+        height: 3vw;
+        border-radius: 10px;
+        font-size: 2vw;
+        font-weight: bolder;
+        font-family: 'Lato';
+    }
+    .spacer {
+        height: 1vw;
+    }
+    .spacer2 {
+        height: 3vw;
+    }
+    .intro{
+        color: $color1;
+        font-size: 4vh;
+    }
+    
+    .title {
+        font-size: 8vw;
+        font-weight: bolder;
+        color: $color1;
+        .curly-brackets1 {
+            color: $theme1;
+        }
+        .curly-brackets2 {
+            color: $theme2;
+        }
+        .curly-brackets3 {
+            color: $theme3;
+        }
+    }
+    .btn1 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme1;
+    }
+    .btn2 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme2;
+    }
+    .btn3 {
+        width: 20vw;
+        color: $color1;
+        background-color: $theme3;
+    }
+}
+
+
+
+h4 {
+    width: 100%;
+    color: $color1;
+    font-size: 4vh;
+    font-family: 'Lato';
+}
+
+.carousel, .carousel-inner, .item, .active {
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: 2em;
+}
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel {
+    .carousel-inner {
+        .bg {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+.carousel {
+    .carousel-inner {
+        .bg1 {
+            background-image: url("images/gamer1.jpg");
+            background-position: center top;
+        }
+    }
+}
+
+.carousel {
+    .carousel-inner {
+        .bg2 {
+            background-image: url("images/gamer2.jpg");
+            background-position: center center;
+        }
+    }
+}
+
+.carousel {
+    .carousel-inner {
+        .bg3 {
+            background-image: url("images/gamer3.jpg");
+            background-position: center bottom;
+        }
+    }
+}
+
+.nav-footer {
+    text-align: center;
+    margin: 0 auto;
+    a {
+        color: $color2;
+        text-decoration: none; 
+        font-weight: bolder;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 980px){}
+
+@media screen and (max-width: 600px) {
+    .nav-footer {
+        text-align: center;
+        margin: 0 auto;
+        .col a {
+            font-size: 1.2vw;
+            color: $color3;
+            text-decoration: none; 
+            font-weight: 900;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+  }

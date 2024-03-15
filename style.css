@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap");
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container .my-tag {
+  color: #e5e6e4;
+  margin: 0 auto;
+  padding: 0;
+  width: 25vw;
+  height: 3vw;
+  border-radius: 10px;
+  font-size: 2vw;
+  font-weight: bolder;
+  font-family: "Lato";
+}
+.container .spacer {
+  height: 1vw;
+}
+.container .spacer2 {
+  height: 3vw;
+}
+.container .intro {
+  color: #e5e6e4;
+  font-size: 4vh;
+}
+.container .title {
+  font-size: 8vw;
+  font-weight: bolder;
+  color: #e5e6e4;
+}
+.container .title .curly-brackets1 {
+  color: #f000ff;
+}
+.container .title .curly-brackets2 {
+  color: #74ee15;
+}
+.container .title .curly-brackets3 {
+  color: #dfd700;
+}
+.container .btn1 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #f000ff;
+}
+.container .btn2 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #74ee15;
+}
+.container .btn3 {
+  width: 20vw;
+  color: #e5e6e4;
+  background-color: #dfd700;
+}
+
+h4 {
+  width: 100%;
+  color: #e5e6e4;
+  font-size: 4vh;
+  font-family: "Lato";
+}
+
+.carousel, .carousel-inner, .item, .active {
+  height: 100%;
+}
+
+.carousel {
+  margin-bottom: 2em;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+  background-image: url("images/gamer1.jpg");
+  background-position: center top;
+}
+
+.carousel .carousel-inner .bg2 {
+  background-image: url("images/gamer2.jpg");
+  background-position: center center;
+}
+
+.carousel .carousel-inner .bg3 {
+  background-image: url("images/gamer3.jpg");
+  background-position: center bottom;
+}
+
+.nav-footer {
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-footer a {
+  color: #1d3557;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-footer {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .nav-footer .col a {
+    font-size: 1.2vw;
+    color: #d00000;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
